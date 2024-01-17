@@ -5,3 +5,6 @@ Initially, the algorithm aims to automatically extract patterns and features fro
 From the processed data, if necessary for the user, it is possible to determine actions to correct the structure or components and implement appropriate measures. Hence, PyMLDA software applies to monitoring structures through their dynamic response, using machine learning algorithms to identify and quantify damage.
 
 **How PyMLDA works**
+
+The software encompasses eight steps in total, comprising receiving the normalised acquired data (step 1), an unsupervised stage involving data processing (step 2), feature selection (step 3), and pattern recognition and clustering (step 4). These steps form the Data-Driven Processing and Pattern Recognition. Subsequently, data splitting is performed in step 5. In the supervised stage, classification ML algorithms (steps 6 and 7) are utilised for damage detection, and regression (steps 6 and 7) is applied for damage quantification. Finally (step 8), the algorithm furnishes information regarding the damage state based on the classification and regression algorithm outcomes. The workflow of the steps is illustrated in the following figure. 
+<img src="ProcessML_PR_SHM.png" width="85%">
