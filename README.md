@@ -1,1 +1,1 @@
-# SHM_ML
+# PyMLDA - Machine Learning for Damage Assessment
