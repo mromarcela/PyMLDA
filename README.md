@@ -33,7 +33,7 @@ The PyMLDA software uses additional packages required for the algorithm's operat
 1. Open the command prompt and run one at a time, following steps 2 to 11.
 2. conda create -n Teste_ML
 3. conda activate Teste_ML
-4. pip uninstall numpy
+4. pip install numpy
 5. pip install matplotlib
 6. pip install pandas
 7. pip install seaborn
