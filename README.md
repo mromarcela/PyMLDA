@@ -98,8 +98,7 @@ If you find **PyMLDA** useful for your research or development, please cite the 
   title={PyMLDA - Machine Learning for Damage Assessment},
   author={ Coelho, J.S. and Machado, M.R. and  Sousa, A.A.S.R.},
   booktitle={},
-  year={2024}
-}
+  year={2024} }
 ```
 ```
 @article{PyMLDAsoft24,
@@ -109,6 +108,5 @@ journal = {Software Impacts},
 volume = {19},
 pages = {100628},
 year = {2024},
-doi = {10.1016/j.simpa.2024.100628},
-}
+doi = {10.1016/j.simpa.2024.100628}, }
 ```
