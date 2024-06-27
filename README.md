@@ -100,6 +100,8 @@ If you find **PyMLDA** useful for your research or development, please cite the 
   booktitle={},
   year={2024}
 }
+```
+```
 @article{PyMLDAsoft24,
 author = {Coelho, J.S., and Machado, M.R., and Souza, A.A.S.R.D.},
 title = {PyMLDA: A Python open-source code for Machine Learning Damage Assessment},
