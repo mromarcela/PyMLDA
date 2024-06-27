@@ -1,7 +1,7 @@
 # PyMLDA - Machine Learning for Damage Assessment
 
 ## About
-The PyMLDA software refers to a computer program based on Python that provides a comprehensive and effective approach to monitoring the structural integrity of systems and structures, using signatures based on dynamics and vibration. By integrating experimental data and machine learning techniques, the software offers an effective tool for assessing structural integrity through the dynamic response of structures. The approach combines supervised and unsupervised machine learning (ML) algorithms to address the challenges associated with assessing damage in a structure.
+The PyMLDA software refers to a computer program based on Python that provides a comprehensive and effective approach to monitoring the structural integrity of systems and structures using signatures based on dynamics and vibration. By integrating experimental data and machine learning techniques, the software offers an effective tool for assessing structural integrity through structures' dynamic response. The approach combines supervised and unsupervised machine learning (ML) algorithms to address the challenges associated with assessing damage in a structure.
 The applied dataset uses dynamic response (natural frequency, frequency response function (FRF), time or frequency spectrum) obtained from numerical or experimental tests to calculate a damage index (DI) under healthy and damaged conditions, serving as input for the algorithms. The framework employs a variety of validation and cross-validation metrics to assess the effectiveness and accuracy of these machine-learning algorithms in detecting and diagnosing structure-related issues. The PyMLDA software includes graphical features for visualizing the results of the classification model.
 Initially, the algorithm aims to automatically extract patterns and features from the data by reading through damage indices. Subsequently, the algorithm is employed to identify the damage state using classification techniques (damaged or healthy) and regression (e.g., damage size, variability associated with estimation, etc.).
 From the processed data, if necessary for the user, it is possible to determine actions to correct the structure or components and implement appropriate measures. Hence, PyMLDA software applies to monitoring structures through their dynamic response, using machine learning algorithms to identify and quantify damage.
@@ -86,6 +86,9 @@ https://doi.org/10.1016/j.dib.2024.110043.
 
 [3] Coelho, J.S., Machado, M.R., Dutkiewicz, M. et al. Data-driven machine learning for pattern recognition and detection of loosening torque in bolted joints. J Braz. Soc. Mech. Sci. Eng. 46, 75 (2024). https://doi.org/10.1007/s40430-023-04628-6
 
+[4] Coelho, J.S., Machado, M.R., Souza, A.A.S.R.D., PyMLDA: A Python open-source code for Machine Learning Damage Assessment. Software Impacts, 19, 100628 (2024). https://doi.org/10.1016/j.simpa.2024.100628
+
+
 ## 📝 Citation
 
 If you find **PyMLDA** useful for your research or development, please cite the  following:
@@ -97,5 +100,13 @@ If you find **PyMLDA** useful for your research or development, please cite the 
   booktitle={},
   year={2024}
 }
+@article{PyMLDAsoft24,
+author = {Coelho, J.S., and Machado, M.R., and Souza, A.A.S.R.D.},
+title = {PyMLDA: A Python open-source code for Machine Learning Damage Assessment},
+journal = {Software Impacts},
+volume = {19},
+pages = {100628},
+year = {2024},
+doi = {10.1016/j.simpa.2024.100628},
+}
 ```
-[3] Coelho, J.S., Machado, M.R., Dutkiewicz, M. et al. Data-driven machine learning for pattern recognition and detection of loosening torque in bolted joints. J Braz. Soc. Mech. Sci. Eng. 46, 75 (2024). https://doi.org/10.1007/s40430-023-04628-6
